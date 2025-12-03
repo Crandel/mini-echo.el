@@ -50,7 +50,7 @@
   :group 'mini-echo)
 
 (defcustom mini-echo-persistent-rule
-  '(:long ("major-mode" "shrink-path" "vcs" "buffer-position" "buffer-size" "flymake")
+  '(:long ("major-mode" "shrink-path" "vcs" "buffer-position" "buffer-size" "remote-host" "flymake")
     :short ("buffer-name" "buffer-position" "flymake"))
   "Plist of segments which are persistent for buffers.
 Used as fallback if `mini-echo-persistent-function' return nil."
